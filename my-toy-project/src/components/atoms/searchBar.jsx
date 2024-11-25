@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../../styles/searchBar.css'
+import '../../styles/components/atoms/searchBar.css'
 import { IoMdSearch } from "react-icons/io";
 
 class SearchBar extends Component {
