@@ -1,0 +1,33 @@
+.SingleCategoryButton {
+    display: flex;
+    max-width: 120px;
+    flex-direction: column;
+    align-items: center;
+}
+.category-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 40%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.category-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.category-text {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+    color: #333;
+}
