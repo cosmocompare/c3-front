@@ -1,0 +1,19 @@
+.list-items {
+    width: 1090px;
+    height: 100%;
+    margin: 50px auto;
+    box-sizing: border-box;
+}
+
+ul.list-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+li.list-item {
+    width: calc(20% - 10px); /* 5개씩 배치 */
+    box-sizing: border-box; /* 패딩 포함 크기 계산 */
+}

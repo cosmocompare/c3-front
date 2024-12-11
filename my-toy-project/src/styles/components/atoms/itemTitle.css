@@ -1,0 +1,24 @@
+.itemTitle{
+    display: flex;
+    flex-direction: column;
+}
+.itemBrand{
+    text-align: left;
+    padding: 3px;
+    color: #989898;
+    font-size: 15px;
+}
+.itemName{
+    text-align: left;
+    padding: 3px;
+    font-size: 16px;
+    height: 43px;
+
+}
+.itemPrice{
+    text-align: right;
+    padding: 3px;
+    font-weight: bold;
+    color: #216CFF;
+    font-size: 17px;
+}
