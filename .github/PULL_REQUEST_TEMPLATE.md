@@ -1,7 +1,7 @@
 
 ## #️⃣ Issue Number
 
-<!--- ex) #이슈번호, #이슈번호 -->(https://cosmocompare.atlassian.net/jira/software/projects/C3/issues/C3-이슈번호)
+[C3-이슈번호](https://cosmocompare.atlassian.net/jira/software/projects/C3/issues/C3-이슈번호)
 
 ## 📝 요약(Summary)
 
