@@ -15,9 +15,9 @@ const Footer = () => {
                 </div>
                 <div className="footer-title">
                     <h2>주)코스모 컴페어</h2>
-                    <p>기획 및 디자인 : 최현지, 현세미</p>
-                    <p>backend developer: 최현지</p>
-                    <p>frontend developer: 현세미</p>
+                    <p>Concept and Design: 최현지, 현세미</p>
+                    <p> backend developer: 최현지</p>
+                    <p> frontend developer: 현세미</p>
                 </div>
                 <div className="footer-details">
                     <p>Github: https://github.com/cosmocompare</p>
