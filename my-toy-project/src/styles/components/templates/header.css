@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    height: 50px;
+    background-color: #F2EFEA;
+}
+.header-loginButton{
+    background-color: #FFF;
+    color: #000000;
+    /*border-color: #F0F1F4;*/
+    box-shadow: none;
+    border:none;
+    width: 72px;
+    height: 34px;
+    border-radius: 8px;
+}
+.header-loginButton:hover{
+    box-shadow: 0 0 5px #444;
+}
+/*.header-loginButton:focus,*/
+.header-loginButton:active{
+    /*outline: none;*/
+    /*box-shadow: none;*/
+    background-color: #F0F1F4;
+
+}
