@@ -4,7 +4,7 @@
   justify-content: center;
   margin: 10px;
 }
-.serch-barLogo {
+.search-barLogo {
   display: flex;
   width: 800px;
   align-items: center;
@@ -36,4 +36,10 @@
 .search-input:focus {
   outline: none;
   border-color: #007bff;
+}
+.search-barLogo.itemSearchBar {
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #000000 !important;
+
 }

@@ -4,14 +4,21 @@ import { IoMdSearch } from "react-icons/io";
 
 class SearchBar extends Component {
     render() {
+
+        const { onChange, value, placeholder, styleVariant } = this.props;
+
+        const searchBarClass = `search-barLogo ${this.props.styleVariant || ''}`;
+
         return (
             <div className="search-bar">
-                <div className="serch-barLogo">
-                    <input type="text"
-                           className="search-input"
-                           onChange={this.props.onChange}
-                           value={this.props.value}
-                           placeholder="상품을 검색해보세요"/>
+                <div className={searchBarClass}>
+                    <input
+                    type="text"
+                    className="search-input"
+                    onChange={onChange}
+                    value={value}
+                    placeholder={placeholder || "상품을 검색해보세요"}
+                    />
                     <div className="searchIcon">
                         <IoMdSearch/>
                     </div>
